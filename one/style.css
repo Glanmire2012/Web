@@ -17,14 +17,14 @@ html
 header h1
 {
 	font-family : mons;
-	font-size : 60px;
+	font-size : 50px;
 	text-align : center;
 	
 }
 main h3
 {
 	font-family : mons;
-	font-size : 25px;
+	font-size : 20px;
 	text-align : center;
 	margin-top : 5px;
 	margin-bottom: 5px;
@@ -46,6 +46,7 @@ section.innersection
 	height : auto;
 	width : auto;
 	background-color : rgb(242, 242, 242);
+	padding-bottom : 15px;
 }
 #round, #round2
 {
@@ -94,6 +95,14 @@ section.innersection
 	{
 		flex-basis : 100%;
 	}
+	.box1
+	{
+		flex-basis : 100%;
+	}
+	.box2
+	{
+		flex-basis : 100%;
+	}
 }
 @media (max-width : 600px)
 {
@@ -101,7 +110,15 @@ section.innersection
 	{
 		width : 80%;
 	}
-	.box
+	.box 
+	{
+		flex-basis : 100%;
+	}
+	.box1
+	{
+		flex-basis : 100%;
+	}
+	.box2
 	{
 		flex-basis : 100%;
 	}
