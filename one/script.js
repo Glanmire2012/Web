@@ -2,6 +2,7 @@ var elColor = document.getElementById('color');
 var mugPic = document.getElementById('pic');
 var elcalculate = document.getElementById('calculate');
 var finalBill = document.getElementById('Order');
+var submitFinal = document.getElementById('form1');
 var total=0.00;
 var check=false;
 function mugcolor(){
@@ -64,12 +65,16 @@ function submitForm(){
 	if (check==false){
 		alert("You must First Calculate the Total");
 		
-	}else{document.getElementById('form1').submit;
-	alert("Your order has been Submitted")};
+	}else{ submitNow();
+	};
 
 	
 }
-
+function submitNow(){
+	document.myForm.submit();
+	alert("Your order has been Submitted")
+}
+submitFinal.addEventListener('submit', submitNow, false);
 elcalculate.addEventListener('click', calculateTotal , false);
 elColor.addEventListener('change', mugcolor , false);
 finalBill.addEventListener('click',submitForm,false);

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--r00038222-->
 <HTML>
 	<HEAD>
 		<TITLE>Custom Mugs</TITLE>
@@ -11,7 +12,7 @@
 		<HEADER>
 			<H1>Custom Mugs</H1>
 		</HEADER>
-		<MAIN>
+			<main>
 					<section class="box1">
 						<SECTION class="innersection">
 							<img src="images/blue.jpg" class="responsiveimage" alt="Mug" id="pic"/>
@@ -20,7 +21,7 @@
 					
 					
 					<section class="box">
-						<form id="form1" action="http://atlantis.cit.ie/displayvalues.php" method="get">
+						<form name="myForm" id="form1" action="http://atlantis.cit.ie/displayvalues.php" method="get">
 							<section class="innersection" id="round">
 								<h3>Personalise your Mug</h3>
 								What size mug would you like? <select id="mug_size" name="size">
@@ -42,26 +43,26 @@
 								<fieldset>
 									<div id="upgrades">
 										<h3>Upgrades</h3>
-										<input type="checkbox" name="upgrade1" id="u1">Transparnet Base	&euro;3<br/>
-										<input type="checkbox" name="upgrade2" id="u2">Thermos	&euro;7<br/>
-										<input type="checkbox" name="upgrade3" id="u3">Upload your Logo	&euro;6<br/>
-										<input type="checkbox" name="upgrade4" id="u4">Engraved Initials	&euro;2<br/><br/>
+										<input type="checkbox" name="TransparentBase" id="u1">Transparnet Base	&euro;3<br/>
+										<input type="checkbox" name="Thermos" id="u2">Thermos	&euro;7<br/>
+										<input type="checkbox" name="Logo" id="u3">Upload your Logo	&euro;6<br/>
+										<input type="checkbox" name="Engrave" id="u4">Engraved Initials	&euro;2<br/><br/>
 									</div>
 								</fieldset>
 								<fieldset>
 									<div id="addons">
 										<h3>Add-ons</h3>
-										<input type="checkbox" name="Addon1" value="HotPlate" id="a1">Hot plate for your Mug	&euro;15<br/>
-										<input type="checkbox" name="Addon2" value="Lid" id="a2">Mug Lid	&euro;3<br/>
-										<input type="checkbox" name="Addon3" value="pullcord" id="a3">Mug Pull Cord	&euro;6<br/><br/>
+										<input type="checkbox" name="Hotplate" value="HotPlate" id="a1">Hot plate for your Mug	&euro;15<br/>
+										<input type="checkbox" name="Lid" value="Lid" id="a2">Mug Lid	&euro;3<br/>
+										<input type="checkbox" name="pullcord" value="pullcord" id="a3">Mug Pull Cord	&euro;6<br/><br/>
 									</div>
 								</fieldset>
 								<fieldset>
 									<div id="extras">
 										<h3>Extras</h3>
-										<input type="checkbox" name="extra1" value="Coffee" id="e1">1kg of Coffee	&euro;15<br/>
-										<input type="checkbox" name="extra2" value="Conmilk" id="e2">Condensed Milk	&euro;3<br/>
-										<input type="checkbox" name="extra3" value="tea" id="e3">1000 Tea Bags	&euro;6<br/><br/>
+										<input type="checkbox" name="coffee" value="Coffee" id="e1">1kg of Coffee	&euro;15<br/>
+										<input type="checkbox" name="conmilk" value="Conmilk" id="e2">Condensed Milk	&euro;3<br/>
+										<input type="checkbox" name="tea" value="tea" id="e3">1000 Tea Bags	&euro;6<br/><br/>
 									</div>
 								</fieldset>
 							</section>
@@ -76,14 +77,8 @@
 								</section>
 							</section>
 							
-							
-					
-						
-			
-		
-			
 			<script type="text/javascript" src="js/script.js" >
 			</script>
-		</MAIN>
+		</main>
 	</BODY>
 </HTML>
